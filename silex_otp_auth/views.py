@@ -7,6 +7,7 @@ from users.models import CustomUser
 from django.contrib import messages
 from . utils import send_sms
 
+
 @login_required
 def home_view(request):
     return render(request, 'main.html')
