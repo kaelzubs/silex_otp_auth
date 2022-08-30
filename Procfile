@@ -1,0 +1,1 @@
+web: gunicorn silex_otp_auth.wsgi --log-file -
